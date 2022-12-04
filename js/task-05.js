@@ -15,3 +15,5 @@ const handleTextInput = (value) => {
 textInput.addEventListener(EVENT_NAME_INPUT, ({ currentTarget: { value } }) => {
   handleTextInput(value);
 });
+
+
