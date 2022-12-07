@@ -8,8 +8,12 @@ textInput.addEventListener("click", () => {
 textInput.addEventListener("blur", () => {
     if (textInput.value.length >= dataLength) {
         textInput.classList.add('valid')
+        textInput.classList.remove('invalid') 
+        console.log(textInput);
     } else {
-        textInput.classList.add('invalid')   
+        textInput.classList.add('invalid')  
+        textInput.classList.remove('valid') 
+        console.log(textInput);
     }
   });
   
