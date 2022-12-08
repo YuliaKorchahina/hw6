@@ -26,3 +26,4 @@ galleryEl.insertAdjacentHTML("afterbegin", list);
 galleryEl.style.display = "flex";
 galleryEl.style.listStyle = "none";
 galleryEl.style.gap = "30px";
+
